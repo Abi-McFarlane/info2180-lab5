@@ -1,1 +1,87 @@
 /* Add your own styles */
+html{
+    background-color: #60adbd;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+}
+
+header{
+    background-color: #064a58;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > img{
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    margin-right: 15px;
+    border-radius: 70%;
+}
+
+#controls{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#country{
+    width: 50%;
+    height: 3em;
+    border : none;
+    border-radius: 5px;
+    padding-left: 12px;
+}
+
+#lookup{
+    width: 140px;
+    height: 40px;
+    background-color: #9d1472;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    margin: 20px 5px;
+}
+
+#lookup_cities{
+    width: 140px;
+    height: 40px;
+    background-color: #8b1244;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    margin: 20px 5px;
+}
+
+#result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    border-collapse:collapse;
+    width: 80%;
+    border: 1px solid #457986;
+}
+
+
+td, th{
+    border: 1px solid #087288;
+    padding: 8px;
+}
+  
+tr:nth-child(odd) {
+    background-color: #3a8d9e;
+}
+
+tr:nth-child(even) {
+    background-color: #6ac1d2;
+}
+
+th{
+    background-color: #087288;
+}
